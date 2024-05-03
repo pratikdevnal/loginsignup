@@ -56,6 +56,10 @@ button {
   color: white;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 input {
   border: 2px solid #ececec;
   padding: 12px;
@@ -170,4 +174,8 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.empty input {
+  border-radius: 2px solid red; /* Change border color to red for empty fields */
+  /* Add more styling as needed */
 }
